@@ -1,0 +1,159 @@
+/* Normalize CSS */
+@import url("normalize.css");
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 10px;
+}
+
+header nav ul li:hover ul {
+  display: block;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+img,
+video {
+  border: 2px solid #000;
+  margin: 10px;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #b31515;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Sidebar */
+aside {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+aside h2,
+aside ul {
+  margin: 0;
+}
+
+/* Main content */
+main {
+  width: 70%;
+  float: right;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Backgrounds for 3 sections */
+header,
+.hero,
+footer {
+  background-color: #f0f0f0;
+}
+
+/* Custom font */
+body {
+  font-family: "Your Custom Font", sans-serif;
+}

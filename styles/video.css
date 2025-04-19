@@ -1,0 +1,163 @@
+/* Normalize CSS */
+@import url("normalize.css");
+
+/* General Styling */
+html,
+body {
+  height: 100%;
+  font-family: "Garamond", serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+body {
+  display: flex;
+}
+header {
+  background-color: #2a2a2a;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  border: 1px solid #444;
+  list-style: none;
+  padding: 10px;
+}
+
+header nav ul li:hover ul {
+  display: block;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+}
+
+article {
+  flex: 3;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+img,
+video {
+  border: 2px solid #000;
+  margin: 10px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("hogwarts.jpg");
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Sidebar */
+aside {
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+aside h2,
+aside ul {
+  margin: 0;
+}
+
+/* Main content */
+main {
+  width: 70%;
+  float: right;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  padding: 20px;
+  background-color: #2a2a2a;
+}
+
+/* Harry Potter Themed */
+body {
+  font-family: "Magic", sans-serif;
+}
+
+header {
+  background-color: #2adb1a;
+}
+
+footer {
+  background-color: #4b2e83;
+}
+
+.hero {
+  background-image: url("hogwarts.jpg");
+}
+
+/* Section titles */
+h2 {
+  color: #4b2e83;
+}

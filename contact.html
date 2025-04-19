@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Harry Potter Fan Page</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page1.html">Page1</a></li>
+          <li><a href="page2.html">Page2</a></li>
+          <li><a href="page3.html">Page3</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required /><br />
+
+        <label for="question">Your Question:</label>
+        <textarea id="question" name="question" rows="4" cols="50"></textarea
+        ><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="phone">Telephone:</label>
+        <input type="tel" id="phone" name="phone" /><br />
+
+        <p>Is this query urgent?</p>
+        <input type="radio" id="urgent-yes" name="urgent" value="Yes" />
+        <label for="urgent-yes">Yes</label>
+        <input type="radio" id="urgent-no" name="urgent" value="No" />
+        <label for="urgent-no">No</label><br />
+
+        <p>Choose mode of reply:</p>
+        <input type="checkbox" id="postal" name="reply" value="Postal Mail" />
+        <label for="postal">Postal Mail</label>
+        <input type="checkbox" id="email-reply" name="reply" value="Email" />
+        <label for="email-reply">Email</label>
+        <input
+          type="checkbox"
+          id="telephone-reply"
+          name="reply"
+          value="Telephone"
+        />
+        <label for="telephone-reply">Telephone</label><br />
+      </form>
+      <label for="document">Attach any documents:</label>
+      <input type="file" id="document" name="document" /><br />
+
+      <label for="rating">Rate our application:</label>
+      <input
+        type="range"
+        id="rating"
+        name="rating"
+        min="1"
+        max="10"
+        value="5"
+      /><br />
+
+      <button type="submit">Submit</button>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; 2025 Dhruv Menon/ 8481913</p>
+  </footer>
+</html>

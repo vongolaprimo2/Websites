@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter Fan Page - Feedback</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/feedback.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Harry Potter Fan Page</h1>
+        <div class="container">
+            <nav>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                  </ul>
+            </nav>
+          </div>
+    </header>
+
+    <div class="container">
+      <main>
+        <aside>
+          <h2>Quick Links</h2>
+          <ul>
+            <li>
+              <a href="index.html"
+                ><img src="thumbnails/home_thumb.jpg" alt="Home Thumbnail" />
+                Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><img src="thumbnails/about_thumb.jpg" alt="About Thumbnail" />
+                About</a
+              >
+            </li>
+            <li>
+              <a href="characters.html"
+                ><img
+                  src="thumbnails/characters_thumb.jpg"
+                  alt="Characters Thumbnail"
+                />
+                Characters</a
+              >
+            </li>
+            <li>
+              <a href="books.html"
+                ><img src="thumbnails/books_thumb.jpg" alt="Books Thumbnail" />
+                Books</a
+              >
+            </li>
+            <li>
+              <a href="movies.html"
+                ><img
+                  src="thumbnails/movies_thumb.jpg"
+                  alt="Movies Thumbnail"
+                />
+                Movies</a
+              >
+            </li>
+            <li>
+              <a href="gallery.html"
+                ><img
+                  src="thumbnails/gallery_thumb.jpg"
+                  alt="Gallery Thumbnail"
+                />
+                Gallery</a
+              >
+            </li>
+          </ul>
+        </aside>
+        <article>
+          <h2>Feedback</h2>
+          <form action="#" method="post" tabindex="0">
+            <label for="name" tabindex="1">Name:</label>
+            <input type="text" id="name" name="name" tabindex="2" /><br /><br />
+
+            <label for="email" tabindex="3">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              tabindex="4"
+            /><br /><br />
+
+            <label for="category" tabindex="5">Category:</label>
+            <select id="category" name="category" tabindex="6">
+              <optgroup label="Books">
+                <option value="philosophers_stone">Philosopher's Stone</option>
+                <option value="chamber_secrets">Chamber of Secrets</option>
+              </optgroup>
+              <optgroup label="Movies">
+                <option value="sorcerers_stone">Sorcerer's Stone</option>
+                <option value="chamber_secrets_movie">
+                  Chamber of Secrets
+                </option>
+              </optgroup></select
+            ><br /><br />
+
+            <label for="comments" tabindex="7">Comments:</label><br />
+            <textarea
+              id="comments"
+              name="comments"
+              rows="7"
+              cols="50"
+              tabindex="8"
+            ></textarea
+            ><br /><br />
+
+            <label for="extras" tabindex="9">Additional Feedback:</label><br />
+            <select id="extras" name="extras" multiple size="4" tabindex="10">
+              <option value="website_design">Website Design</option>
+              <option value="content_quality">Content Quality</option>
+              <option value="user_experience">User Experience</option></select
+            ><br /><br />
+
+            <input type="reset" value="Reset Form" tabindex="11" />
+          </form>
+        </article>
+        <aside>
+          <form action="#" method="post" tabindex="12">
+            <fieldset>
+              <legend>Website Feedback</legend>
+              <input
+                type="checkbox"
+                id="fun"
+                name="website_feedback"
+                value="fun"
+                tabindex="13"
+              />
+              <label for="fun" tabindex="14">Fun to visit</label><br />
+              <input
+                type="checkbox"
+                id="design"
+                name="website_feedback"
+                value="design"
+                tabindex="15"
+              />
+              <label for="design" tabindex="16">Well Designed</label><br />
+              <input
+                type="checkbox"
+                id="colors"
+                name="website_feedback"
+                value="colors"
+                tabindex="17"
+              />
+              <label for="colors" tabindex="18">Uses good colours</label><br />
+            </fieldset>
+
+            <fieldset>
+              <legend>Will you visit my site again?</legend>
+              <input
+                type="radio"
+                id="yes"
+                name="visit_again"
+                value="yes"
+                tabindex="19"
+              />
+              <label for="yes" tabindex="20">Yes</label>
+              <input
+                type="radio"
+                id="no"
+                name="visit_again"
+                value="no"
+                tabindex="21"
+              />
+              <label for="no" tabindex="22">No</label>
+            </fieldset>
+          </form>
+        </aside>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Dhruv Menon/ 8481913</p>
+    </footer>
+  </body>
+</html>

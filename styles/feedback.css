@@ -1,0 +1,67 @@
+/* feedback.css */
+
+form {
+  display: block;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: calc(100% - 160px);
+  padding: 5px;
+}
+
+input[type="reset"] {
+  padding: 5px 10px;
+  background-color: #4b2e83;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #3a2270;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label[for="category"],
+label[for="comments"],
+label[for="extras"] {
+  width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form aside form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
